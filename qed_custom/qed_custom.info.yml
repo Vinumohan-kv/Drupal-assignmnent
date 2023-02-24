@@ -1,0 +1,6 @@
+name: 'QED Custom'
+package: custom
+type: module
+core_version_requirement: ^8 || ^9
+description: "QED custom coding"
+version: 9.X-1.0

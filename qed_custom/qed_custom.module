@@ -1,0 +1,15 @@
+<?php
+
+/**
+*
+* hook_help()
+*/
+
+function qed_custom_help($route_name) {
+  $help = '';
+  switch($route_name){
+    case 'help.page.qed_custom':
+      $help = 'Custom coding';
+      return $help;
+  }    
+}
